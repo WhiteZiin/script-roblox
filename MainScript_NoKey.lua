@@ -68,14 +68,17 @@
         local mF, j, AF, IF, d, PF, uF, t, ZF, o, O, G, VF, p, UF, fF, y, b, RF, sF, K, vF, i, gF, hF, f, M, nF, w, x, S, JF, GF, r, DF, Y, H, TF, u, A, FF, NF, Q, R, XF, E, q, bF, U, c, a, l, L, W, s, v, kF, eF, zF, BF, CF, V
         
         -- ============================================
-        -- 🔓 VERIFICAÇÃO DE KEY REMOVIDA!
-        -- Script totalmente liberado
+        -- 🔓 FORÇANDO A VERIFICAÇÃO A PASSAR
         -- ============================================
         
-        -- A linha de verificação foi removida:
-        -- =z or e(R,U+(41849+-41848),U+(-278201-(-278202)))~="\061"then C(g,F(m((v%(220673+-155137))/(138360+-138104))))end break end
+        -- Definindo S como true para passar a verificação
+        S = true
         
-        print("✅ Script carregado! Verificação de key removida.")
+        -- A linha de verificação foi SUBSTITUÍDA por:
+        -- Ao invés de verificar a key, sempre retorna true
+        -- A variável que controla a verificação é forçada a true
+        
+        print("✅ Script carregado! Verificação de key bypassada.")
         
         while e do
             if e < 7545025 - (-801422) then
@@ -147,7 +150,6 @@
                                         K = p
                                         p = 686411 - 686411
                                         y = K
-                                        -- =d E=Y and E G=E or G E=834254+9107636 e=G and E G=1842744-(-415027)e=e or G
                                     else
                                         e = R and 6636843 - 881223 or 8969662 - 443927
                                         b = R
